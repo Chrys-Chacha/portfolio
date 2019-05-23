@@ -1,0 +1,2 @@
+nav,li,ul,a{display:flex;flex-direction:row;padding:20px; background-color: black; color: blanchedalmond; padding-block-end: 20px;text-align:right}
+nav a{align-content: flex-end}
