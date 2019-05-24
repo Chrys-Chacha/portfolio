@@ -1,4 +1,4 @@
 nav,li,ul,a{display:flex;flex-direction:row;padding:20px; background-color: rgb(21, 124, 138); color: blanchedalmond; padding-block-end: 10px;text-align:right;}
-image{float: right}
+image{float: right; margin-left: 12cm;}
 div{color: green;}
-body{background-image: url('https://instarama.net/wp-content/uploads/2017/08/Building-your-Software-Product.png');background-repeat: no-repeat;background-size: cover}
+body{background-image: url('https://instarama.net/wp-content/uploads/2017/08/Building-your-Software-Product.png');background-repeat: no-repeat;background-size: cover; background-position: right;}
