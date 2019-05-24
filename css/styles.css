@@ -6,7 +6,6 @@ nav,li,ul,a{
      padding-block-end: 10px;
      text-align:right;
      background-position: left;
-     text-transform: uppercase
 }
 image{
     float: right; 
@@ -29,5 +28,13 @@ body{
 }
 .sidebar{
     display: block;
+    height: 550px;
+    float: center;
 }
-strong{font-size: large}
+strong{
+    font-size: large;
+}
+.hob{
+    color: brown;
+    font-size: extra-large;
+}
