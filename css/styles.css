@@ -4,18 +4,24 @@ nav,ul,li,a{
      color: rgb(204, 141, 45); 
      text-align:right;
      background-position: left;
-     padding-block-end: 10px;
-     background-color:rgb(18, 77, 100)
+     padding-block-end: 6px;
+     background-color:rgb(18, 77, 100);
 }
 image{
     float: right; 
     background-position: right;
-    margin-right: 12cm;
+    margin-right: 1cm;
 }
 div{
     color: brown;
     margin-right: 12cm;
     background-position: right;
+}
+#my-course{
+    color: brown;
+}
+.prog{
+    color: brown;
 }
 body{
     background-image: url('https://instarama.net/wp-content/uploads/2017/08/Building-your-Software-Product.png');
@@ -30,7 +36,8 @@ body{
 .sidebar{
     display: block;
     height: 550px;
-    float: center;
+    float: left;
+    border: 2px solid-brown;
 }
 #cont{
     flex-direction: column;
@@ -46,4 +53,6 @@ strong{
     font: message-box;
     color: brown;
 }
-.work{color: brown}
+.work{
+    color: brown;
+}
