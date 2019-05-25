@@ -57,3 +57,10 @@ strong{
 .work{
     color: brown;
 }
+#projects{
+    display: block;
+    height: 200px;
+    float: left;
+    border: 2px solid-brown;
+}
+    
