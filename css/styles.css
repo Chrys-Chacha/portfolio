@@ -1,11 +1,11 @@
-nav,li,ul,a{
+nav,ul,li,a{
     display:flex;
     flex-direction:row;padding:20px; 
-    background-color: rgb(21, 124, 138);
-     color: blanchedalmond; 
-     padding-block-end: 10px;
+     color: rgb(204, 141, 45); 
      text-align:right;
      background-position: left;
+     padding-block-end: 10px;
+     background-color:rgb(18, 77, 100)
 }
 image{
     float: right; 
@@ -25,11 +25,15 @@ body{
 .languages{
     margin: 5cm;
     padding-right: 20%;
+    flex-direction:column;
 }
 .sidebar{
     display: block;
     height: 550px;
     float: center;
+}
+#cont{
+    flex-direction: column;
 }
 strong{
     font-size: large;
@@ -38,3 +42,8 @@ strong{
     color: brown;
     font-size: extra-large;
 }
+.company{
+    font: message-box;
+    color: brown;
+}
+.work{color: brown}
